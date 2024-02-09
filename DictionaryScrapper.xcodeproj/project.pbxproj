@@ -7,44 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0129CAF02B76D00F003FAE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129CAEF2B76D00F003FAE66 /* AppDelegate.swift */; };
-		0129CAF42B76D00F003FAE66 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0129CAF22B76D00F003FAE66 /* Main.html */; };
-		0129CAF62B76D00F003FAE66 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0129CAF52B76D00F003FAE66 /* Icon.png */; };
-		0129CAF82B76D00F003FAE66 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0129CAF72B76D00F003FAE66 /* Style.css */; };
-		0129CAFA2B76D00F003FAE66 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0129CAF92B76D00F003FAE66 /* Script.js */; };
-		0129CAFC2B76D00F003FAE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129CAFB2B76D00F003FAE66 /* ViewController.swift */; };
-		0129CAFF2B76D00F003FAE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0129CAFD2B76D00F003FAE66 /* Main.storyboard */; };
-		0129CB012B76D010003FAE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB002B76D010003FAE66 /* Assets.xcassets */; };
-		0129CB092B76D010003FAE66 /* DictionaryScrapper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0129CB082B76D010003FAE66 /* DictionaryScrapper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0129CB0E2B76D010003FAE66 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129CB0D2B76D010003FAE66 /* SafariWebExtensionHandler.swift */; };
-		0129CB112B76D010003FAE66 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB102B76D010003FAE66 /* _locales */; };
-		0129CB132B76D010003FAE66 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB122B76D010003FAE66 /* images */; };
-		0129CB152B76D010003FAE66 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB142B76D010003FAE66 /* manifest.json */; };
-		0129CB172B76D010003FAE66 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB162B76D010003FAE66 /* background.js */; };
-		0129CB192B76D010003FAE66 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB182B76D010003FAE66 /* content.js */; };
-		0129CB1B2B76D010003FAE66 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB1A2B76D010003FAE66 /* popup.html */; };
-		0129CB1D2B76D010003FAE66 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB1C2B76D010003FAE66 /* popup.css */; };
-		0129CB1F2B76D010003FAE66 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB1E2B76D010003FAE66 /* popup.js */; };
+		0129CB382B76D40C003FAE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129CB372B76D40C003FAE66 /* AppDelegate.swift */; };
+		0129CB3C2B76D40C003FAE66 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB3A2B76D40C003FAE66 /* Main.html */; };
+		0129CB3E2B76D40C003FAE66 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB3D2B76D40C003FAE66 /* Icon.png */; };
+		0129CB402B76D40C003FAE66 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB3F2B76D40C003FAE66 /* Style.css */; };
+		0129CB422B76D40C003FAE66 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB412B76D40C003FAE66 /* Script.js */; };
+		0129CB442B76D40C003FAE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129CB432B76D40C003FAE66 /* ViewController.swift */; };
+		0129CB472B76D40C003FAE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB452B76D40C003FAE66 /* Main.storyboard */; };
+		0129CB492B76D40D003FAE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB482B76D40D003FAE66 /* Assets.xcassets */; };
+		0129CB512B76D40D003FAE66 /* DictionaryScrapper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0129CB502B76D40D003FAE66 /* DictionaryScrapper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0129CB562B76D40D003FAE66 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129CB552B76D40D003FAE66 /* SafariExtensionHandler.swift */; };
+		0129CB582B76D40D003FAE66 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129CB572B76D40D003FAE66 /* SafariExtensionViewController.swift */; };
+		0129CB5B2B76D40D003FAE66 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB5A2B76D40D003FAE66 /* script.js */; };
+		0129CB5D2B76D40D003FAE66 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB5C2B76D40D003FAE66 /* ToolbarItemIcon.pdf */; };
+		0129CB602B76D40D003FAE66 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0129CB5E2B76D40D003FAE66 /* SafariExtensionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0129CB0A2B76D010003FAE66 /* PBXContainerItemProxy */ = {
+		0129CB522B76D40D003FAE66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0129CAE42B76D00F003FAE66 /* Project object */;
+			containerPortal = 0129CB2C2B76D40C003FAE66 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0129CB072B76D010003FAE66;
+			remoteGlobalIDString = 0129CB4F2B76D40D003FAE66;
 			remoteInfo = "DictionaryScrapper Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0129CB272B76D010003FAE66 /* Embed Foundation Extensions */ = {
+		0129CB682B76D40D003FAE66 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0129CB092B76D010003FAE66 /* DictionaryScrapper Extension.appex in Embed Foundation Extensions */,
+				0129CB512B76D40D003FAE66 /* DictionaryScrapper Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,40 +48,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0129CAEC2B76D00F003FAE66 /* DictionaryScrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryScrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0129CAEF2B76D00F003FAE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0129CAF32B76D00F003FAE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		0129CAF52B76D00F003FAE66 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		0129CAF72B76D00F003FAE66 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		0129CAF92B76D00F003FAE66 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		0129CAFB2B76D00F003FAE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0129CAFE2B76D00F003FAE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0129CB002B76D010003FAE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0129CB022B76D010003FAE66 /* DictionaryScrapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DictionaryScrapper.entitlements; sourceTree = "<group>"; };
-		0129CB032B76D010003FAE66 /* DictionaryScrapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DictionaryScrapper.entitlements; sourceTree = "<group>"; };
-		0129CB082B76D010003FAE66 /* DictionaryScrapper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DictionaryScrapper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0129CB0D2B76D010003FAE66 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		0129CB102B76D010003FAE66 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		0129CB122B76D010003FAE66 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		0129CB142B76D010003FAE66 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		0129CB162B76D010003FAE66 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		0129CB182B76D010003FAE66 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		0129CB1A2B76D010003FAE66 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		0129CB1C2B76D010003FAE66 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		0129CB1E2B76D010003FAE66 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
-		0129CB202B76D010003FAE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0129CB212B76D010003FAE66 /* DictionaryScrapper_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DictionaryScrapper_Extension.entitlements; sourceTree = "<group>"; };
+		0129CB342B76D40C003FAE66 /* DictionaryScrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryScrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0129CB372B76D40C003FAE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0129CB3B2B76D40C003FAE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0129CB3D2B76D40C003FAE66 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0129CB3F2B76D40C003FAE66 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0129CB412B76D40C003FAE66 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		0129CB432B76D40C003FAE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0129CB462B76D40C003FAE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0129CB482B76D40D003FAE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0129CB4A2B76D40D003FAE66 /* DictionaryScrapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DictionaryScrapper.entitlements; sourceTree = "<group>"; };
+		0129CB4B2B76D40D003FAE66 /* DictionaryScrapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DictionaryScrapper.entitlements; sourceTree = "<group>"; };
+		0129CB502B76D40D003FAE66 /* DictionaryScrapper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DictionaryScrapper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0129CB552B76D40D003FAE66 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		0129CB572B76D40D003FAE66 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		0129CB5A2B76D40D003FAE66 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		0129CB5C2B76D40D003FAE66 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		0129CB5F2B76D40D003FAE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		0129CB612B76D40D003FAE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0129CB622B76D40D003FAE66 /* DictionaryScrapper_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DictionaryScrapper_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0129CAE92B76D00F003FAE66 /* Frameworks */ = {
+		0129CB312B76D40C003FAE66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0129CB052B76D010003FAE66 /* Frameworks */ = {
+		0129CB4D2B76D40D003FAE66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,71 +87,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0129CAE32B76D00F003FAE66 = {
+		0129CB2B2B76D40C003FAE66 = {
 			isa = PBXGroup;
 			children = (
-				0129CAEE2B76D00F003FAE66 /* DictionaryScrapper */,
-				0129CB0C2B76D010003FAE66 /* DictionaryScrapper Extension */,
-				0129CAED2B76D00F003FAE66 /* Products */,
+				0129CB362B76D40C003FAE66 /* DictionaryScrapper */,
+				0129CB542B76D40D003FAE66 /* DictionaryScrapper Extension */,
+				0129CB352B76D40C003FAE66 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0129CAED2B76D00F003FAE66 /* Products */ = {
+		0129CB352B76D40C003FAE66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0129CAEC2B76D00F003FAE66 /* DictionaryScrapper.app */,
-				0129CB082B76D010003FAE66 /* DictionaryScrapper Extension.appex */,
+				0129CB342B76D40C003FAE66 /* DictionaryScrapper.app */,
+				0129CB502B76D40D003FAE66 /* DictionaryScrapper Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0129CAEE2B76D00F003FAE66 /* DictionaryScrapper */ = {
+		0129CB362B76D40C003FAE66 /* DictionaryScrapper */ = {
 			isa = PBXGroup;
 			children = (
-				0129CAEF2B76D00F003FAE66 /* AppDelegate.swift */,
-				0129CAFB2B76D00F003FAE66 /* ViewController.swift */,
-				0129CAFD2B76D00F003FAE66 /* Main.storyboard */,
-				0129CB002B76D010003FAE66 /* Assets.xcassets */,
-				0129CB022B76D010003FAE66 /* DictionaryScrapper.entitlements */,
-				0129CB032B76D010003FAE66 /* DictionaryScrapper.entitlements */,
-				0129CAF12B76D00F003FAE66 /* Resources */,
+				0129CB372B76D40C003FAE66 /* AppDelegate.swift */,
+				0129CB432B76D40C003FAE66 /* ViewController.swift */,
+				0129CB452B76D40C003FAE66 /* Main.storyboard */,
+				0129CB482B76D40D003FAE66 /* Assets.xcassets */,
+				0129CB4A2B76D40D003FAE66 /* DictionaryScrapper.entitlements */,
+				0129CB4B2B76D40D003FAE66 /* DictionaryScrapper.entitlements */,
+				0129CB392B76D40C003FAE66 /* Resources */,
 			);
 			path = DictionaryScrapper;
 			sourceTree = "<group>";
 		};
-		0129CAF12B76D00F003FAE66 /* Resources */ = {
+		0129CB392B76D40C003FAE66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0129CAF22B76D00F003FAE66 /* Main.html */,
-				0129CAF52B76D00F003FAE66 /* Icon.png */,
-				0129CAF72B76D00F003FAE66 /* Style.css */,
-				0129CAF92B76D00F003FAE66 /* Script.js */,
+				0129CB3A2B76D40C003FAE66 /* Main.html */,
+				0129CB3D2B76D40C003FAE66 /* Icon.png */,
+				0129CB3F2B76D40C003FAE66 /* Style.css */,
+				0129CB412B76D40C003FAE66 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		0129CB0C2B76D010003FAE66 /* DictionaryScrapper Extension */ = {
+		0129CB542B76D40D003FAE66 /* DictionaryScrapper Extension */ = {
 			isa = PBXGroup;
 			children = (
-				0129CB0D2B76D010003FAE66 /* SafariWebExtensionHandler.swift */,
-				0129CB202B76D010003FAE66 /* Info.plist */,
-				0129CB212B76D010003FAE66 /* DictionaryScrapper_Extension.entitlements */,
-				0129CB0F2B76D010003FAE66 /* Resources */,
+				0129CB552B76D40D003FAE66 /* SafariExtensionHandler.swift */,
+				0129CB572B76D40D003FAE66 /* SafariExtensionViewController.swift */,
+				0129CB5E2B76D40D003FAE66 /* SafariExtensionViewController.xib */,
+				0129CB612B76D40D003FAE66 /* Info.plist */,
+				0129CB622B76D40D003FAE66 /* DictionaryScrapper_Extension.entitlements */,
+				0129CB592B76D40D003FAE66 /* Resources */,
 			);
 			path = "DictionaryScrapper Extension";
 			sourceTree = "<group>";
 		};
-		0129CB0F2B76D010003FAE66 /* Resources */ = {
+		0129CB592B76D40D003FAE66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0129CB102B76D010003FAE66 /* _locales */,
-				0129CB122B76D010003FAE66 /* images */,
-				0129CB142B76D010003FAE66 /* manifest.json */,
-				0129CB162B76D010003FAE66 /* background.js */,
-				0129CB182B76D010003FAE66 /* content.js */,
-				0129CB1A2B76D010003FAE66 /* popup.html */,
-				0129CB1C2B76D010003FAE66 /* popup.css */,
-				0129CB1E2B76D010003FAE66 /* popup.js */,
+				0129CB5A2B76D40D003FAE66 /* script.js */,
+				0129CB5C2B76D40D003FAE66 /* ToolbarItemIcon.pdf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -167,32 +155,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0129CAEB2B76D00F003FAE66 /* DictionaryScrapper */ = {
+		0129CB332B76D40C003FAE66 /* DictionaryScrapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0129CB282B76D010003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper" */;
+			buildConfigurationList = 0129CB692B76D40D003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper" */;
 			buildPhases = (
-				0129CAE82B76D00F003FAE66 /* Sources */,
-				0129CAE92B76D00F003FAE66 /* Frameworks */,
-				0129CAEA2B76D00F003FAE66 /* Resources */,
-				0129CB272B76D010003FAE66 /* Embed Foundation Extensions */,
+				0129CB302B76D40C003FAE66 /* Sources */,
+				0129CB312B76D40C003FAE66 /* Frameworks */,
+				0129CB322B76D40C003FAE66 /* Resources */,
+				0129CB682B76D40D003FAE66 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0129CB0B2B76D010003FAE66 /* PBXTargetDependency */,
+				0129CB532B76D40D003FAE66 /* PBXTargetDependency */,
 			);
 			name = DictionaryScrapper;
 			productName = DictionaryScrapper;
-			productReference = 0129CAEC2B76D00F003FAE66 /* DictionaryScrapper.app */;
+			productReference = 0129CB342B76D40C003FAE66 /* DictionaryScrapper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0129CB072B76D010003FAE66 /* DictionaryScrapper Extension */ = {
+		0129CB4F2B76D40D003FAE66 /* DictionaryScrapper Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0129CB242B76D010003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper Extension" */;
+			buildConfigurationList = 0129CB652B76D40D003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper Extension" */;
 			buildPhases = (
-				0129CB042B76D010003FAE66 /* Sources */,
-				0129CB052B76D010003FAE66 /* Frameworks */,
-				0129CB062B76D010003FAE66 /* Resources */,
+				0129CB4C2B76D40D003FAE66 /* Sources */,
+				0129CB4D2B76D40D003FAE66 /* Frameworks */,
+				0129CB4E2B76D40D003FAE66 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -200,28 +188,28 @@
 			);
 			name = "DictionaryScrapper Extension";
 			productName = "DictionaryScrapper Extension";
-			productReference = 0129CB082B76D010003FAE66 /* DictionaryScrapper Extension.appex */;
+			productReference = 0129CB502B76D40D003FAE66 /* DictionaryScrapper Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0129CAE42B76D00F003FAE66 /* Project object */ = {
+		0129CB2C2B76D40C003FAE66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					0129CAEB2B76D00F003FAE66 = {
+					0129CB332B76D40C003FAE66 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					0129CB072B76D010003FAE66 = {
+					0129CB4F2B76D40D003FAE66 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 0129CAE72B76D00F003FAE66 /* Build configuration list for PBXProject "DictionaryScrapper" */;
+			buildConfigurationList = 0129CB2F2B76D40C003FAE66 /* Build configuration list for PBXProject "DictionaryScrapper" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,97 +217,101 @@
 				en,
 				Base,
 			);
-			mainGroup = 0129CAE32B76D00F003FAE66;
-			productRefGroup = 0129CAED2B76D00F003FAE66 /* Products */;
+			mainGroup = 0129CB2B2B76D40C003FAE66;
+			productRefGroup = 0129CB352B76D40C003FAE66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0129CAEB2B76D00F003FAE66 /* DictionaryScrapper */,
-				0129CB072B76D010003FAE66 /* DictionaryScrapper Extension */,
+				0129CB332B76D40C003FAE66 /* DictionaryScrapper */,
+				0129CB4F2B76D40D003FAE66 /* DictionaryScrapper Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0129CAEA2B76D00F003FAE66 /* Resources */ = {
+		0129CB322B76D40C003FAE66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0129CAF62B76D00F003FAE66 /* Icon.png in Resources */,
-				0129CAFF2B76D00F003FAE66 /* Main.storyboard in Resources */,
-				0129CAFA2B76D00F003FAE66 /* Script.js in Resources */,
-				0129CAF42B76D00F003FAE66 /* Main.html in Resources */,
-				0129CB012B76D010003FAE66 /* Assets.xcassets in Resources */,
-				0129CAF82B76D00F003FAE66 /* Style.css in Resources */,
+				0129CB3E2B76D40C003FAE66 /* Icon.png in Resources */,
+				0129CB472B76D40C003FAE66 /* Main.storyboard in Resources */,
+				0129CB422B76D40C003FAE66 /* Script.js in Resources */,
+				0129CB3C2B76D40C003FAE66 /* Main.html in Resources */,
+				0129CB492B76D40D003FAE66 /* Assets.xcassets in Resources */,
+				0129CB402B76D40C003FAE66 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0129CB062B76D010003FAE66 /* Resources */ = {
+		0129CB4E2B76D40D003FAE66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0129CB172B76D010003FAE66 /* background.js in Resources */,
-				0129CB1D2B76D010003FAE66 /* popup.css in Resources */,
-				0129CB1B2B76D010003FAE66 /* popup.html in Resources */,
-				0129CB132B76D010003FAE66 /* images in Resources */,
-				0129CB152B76D010003FAE66 /* manifest.json in Resources */,
-				0129CB112B76D010003FAE66 /* _locales in Resources */,
-				0129CB192B76D010003FAE66 /* content.js in Resources */,
-				0129CB1F2B76D010003FAE66 /* popup.js in Resources */,
+				0129CB602B76D40D003FAE66 /* SafariExtensionViewController.xib in Resources */,
+				0129CB5D2B76D40D003FAE66 /* ToolbarItemIcon.pdf in Resources */,
+				0129CB5B2B76D40D003FAE66 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0129CAE82B76D00F003FAE66 /* Sources */ = {
+		0129CB302B76D40C003FAE66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0129CAFC2B76D00F003FAE66 /* ViewController.swift in Sources */,
-				0129CAF02B76D00F003FAE66 /* AppDelegate.swift in Sources */,
+				0129CB442B76D40C003FAE66 /* ViewController.swift in Sources */,
+				0129CB382B76D40C003FAE66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0129CB042B76D010003FAE66 /* Sources */ = {
+		0129CB4C2B76D40D003FAE66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0129CB0E2B76D010003FAE66 /* SafariWebExtensionHandler.swift in Sources */,
+				0129CB582B76D40D003FAE66 /* SafariExtensionViewController.swift in Sources */,
+				0129CB562B76D40D003FAE66 /* SafariExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0129CB0B2B76D010003FAE66 /* PBXTargetDependency */ = {
+		0129CB532B76D40D003FAE66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0129CB072B76D010003FAE66 /* DictionaryScrapper Extension */;
-			targetProxy = 0129CB0A2B76D010003FAE66 /* PBXContainerItemProxy */;
+			target = 0129CB4F2B76D40D003FAE66 /* DictionaryScrapper Extension */;
+			targetProxy = 0129CB522B76D40D003FAE66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0129CAF22B76D00F003FAE66 /* Main.html */ = {
+		0129CB3A2B76D40C003FAE66 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0129CAF32B76D00F003FAE66 /* Base */,
+				0129CB3B2B76D40C003FAE66 /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		0129CAFD2B76D00F003FAE66 /* Main.storyboard */ = {
+		0129CB452B76D40C003FAE66 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0129CAFE2B76D00F003FAE66 /* Base */,
+				0129CB462B76D40C003FAE66 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0129CB5E2B76D40D003FAE66 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0129CB5F2B76D40D003FAE66 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0129CB222B76D010003FAE66 /* Debug */ = {
+		0129CB632B76D40D003FAE66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +374,7 @@
 			};
 			name = Debug;
 		};
-		0129CB232B76D010003FAE66 /* Release */ = {
+		0129CB642B76D40D003FAE66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,7 +429,7 @@
 			};
 			name = Release;
 		};
-		0129CB252B76D010003FAE66 /* Debug */ = {
+		0129CB662B76D40D003FAE66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "DictionaryScrapper Extension/DictionaryScrapper_Extension.entitlements";
@@ -468,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		0129CB262B76D010003FAE66 /* Release */ = {
+		0129CB672B76D40D003FAE66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "DictionaryScrapper Extension/DictionaryScrapper_Extension.entitlements";
@@ -499,7 +491,7 @@
 			};
 			name = Release;
 		};
-		0129CB292B76D010003FAE66 /* Debug */ = {
+		0129CB6A2B76D40D003FAE66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -535,7 +527,7 @@
 			};
 			name = Debug;
 		};
-		0129CB2A2B76D010003FAE66 /* Release */ = {
+		0129CB6B2B76D40D003FAE66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -574,34 +566,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0129CAE72B76D00F003FAE66 /* Build configuration list for PBXProject "DictionaryScrapper" */ = {
+		0129CB2F2B76D40C003FAE66 /* Build configuration list for PBXProject "DictionaryScrapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0129CB222B76D010003FAE66 /* Debug */,
-				0129CB232B76D010003FAE66 /* Release */,
+				0129CB632B76D40D003FAE66 /* Debug */,
+				0129CB642B76D40D003FAE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0129CB242B76D010003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper Extension" */ = {
+		0129CB652B76D40D003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0129CB252B76D010003FAE66 /* Debug */,
-				0129CB262B76D010003FAE66 /* Release */,
+				0129CB662B76D40D003FAE66 /* Debug */,
+				0129CB672B76D40D003FAE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0129CB282B76D010003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper" */ = {
+		0129CB692B76D40D003FAE66 /* Build configuration list for PBXNativeTarget "DictionaryScrapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0129CB292B76D010003FAE66 /* Debug */,
-				0129CB2A2B76D010003FAE66 /* Release */,
+				0129CB6A2B76D40D003FAE66 /* Debug */,
+				0129CB6B2B76D40D003FAE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0129CAE42B76D00F003FAE66 /* Project object */;
+	rootObject = 0129CB2C2B76D40C003FAE66 /* Project object */;
 }
