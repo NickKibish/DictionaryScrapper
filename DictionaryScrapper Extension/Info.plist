@@ -15,10 +15,19 @@
 				<string>script.js</string>
 			</dict>
 		</array>
+		<key>SFSafariContextMenu</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>Find</string>
+				<key>Text</key>
+				<string>Find Word</string>
+			</dict>
+		</array>
 		<key>SFSafariToolbarItem</key>
 		<dict>
 			<key>Action</key>
-			<string>Command</string>
+			<string>Popover</string>
 			<key>Identifier</key>
 			<string>Button</string>
 			<key>Image</key>
@@ -28,12 +37,8 @@
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
-			<key>Allowed Domains</key>
-			<array>
-				<string>example.com</string>
-			</array>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
